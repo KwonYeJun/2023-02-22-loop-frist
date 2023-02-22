@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
-  
+
   <div id="root"></div>
 
-<script>
-  let poket = ["피카츄", "라이츄","파이리","꼬북이","버터풀","야도란"];
-  console.dir(poket);
-  console.log(poket[4]); // 리터널
-  console.log(poket.length);//indexing 접근 할 수 있다.
-  console.log(poket[poket.length - 1]); 
+  <script>
+    let poket = ["피카츄", "라이츄", "파이리", "꼬북이", "버터풀", "야도란"];
 
-  // for(let i = 0; i < poket.length; i++){
-  //   console.log(poket[i]);
-  // }
+    let root = document.getElementById("root");
 
-</script>
+    // for (let index = 0; //index 변수의 0을 담았다 초기화
+    // index < 10; //비교 연산을 합니다. index변수가 10 보다 작으면 실해 하라는 조건 10보다 커지면 반복을 멈춘다 반복 횟수 제어
+    // index = index +1 // 절차형으로 프로그래밍 하는 것 이다. 절차형 프로그래밍 하나하나 다 알려주는 것 절차를 다 알려주는 것
+    // ) {
+
+
+
+    // }
+
+    for(let i = 0; i < poket.length; i++){
+      //실행구문
+      console.log(poket[i]);
+    }
+
+  </script>
 </body>
+
 </html>
